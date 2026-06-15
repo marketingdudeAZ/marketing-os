@@ -1,0 +1,22 @@
+# Secrets — NEVER commit. This is a clean-room prototype: personal keys only, no company data.
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Local data (no company/customer data in git, ever)
+data/
+*.csv
+*.sqlite
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
